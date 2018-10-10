@@ -1,0 +1,181 @@
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body{
+	background: url('abs.jpg') ;
+	background-size: cover;
+	font-family: Arial;
+	color:white;
+	height:100%;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#container{
+	min-height: 100%;
+    max-width: 100%;
+}
+#main{
+    overflow: hidden;
+    padding-bottom: 100px;
+    height: 100px;
+}
+
+#container ul li{
+	float: left;
+	width: 210px;
+	height: 40px;
+	background-color: black;
+	opacity: .85;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+  transition: background .5s ease-in, transform 1s .25s ease-in-out;
+}
+#container li{
+    padding: 4px;
+}
+#container ul li a{
+	text-decoration: none;
+	color: white;
+	display:block;
+}
+#container ul li a:hover{
+    
+    overflow: hidden;
+	background-color:  #8B008B ;
+   
+}
+#container ul li ul li{
+	display: none;
+    margin-top: 4px;
+}
+#container ul li:hover ul li {
+	display: block;
+    transform: scale(1.2);
+     transition: background .5s ease-in, transform .5s .25s ease-in-out;
+}
+.topbar{
+	margin-top: 6px;
+}
+
+/*-----------footer-------*/
+
+footer {
+	   width: 100%;
+       background-color: #000;
+       padding: 60px 0px;
+       opacity: .8;
+
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.wrapper ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.wrapper ul li{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: blue;
+}
+.wrapper ul li a{
+    color: magenta;
+    font-size: 25px;
+    display: block;
+}
+.wrapper ul li a i{
+    line-height: 50px;
+}
+.footer-menu-one{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-menu-one ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-menu-one ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-one ul li a{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+h1{  margin-top: -70px;
+	margin-left: 320px;
+	font-size: 80px;
+}
+
+b{  margin-left: 20px;
+    font-size: 40px;
+}
+
+p{  
+    border:2px solid    #D3D3D3;
+    border-radius:5px; 
+
+
+}
+p1 {
+    margin-left: 100px; 
+ 
+}
+p2{ margin-top: -100px;
+    font-family: bold;
+    margin-left: 1200px;
+   font-size:13px; 
+}
+h2{  margin-top: 30px;
+    margin-left: 500px;
+    font-size: 30px;
+
+}
+span{ background-color: black;
+    border:17px solid black;
+    border-radius: 30px;
+
+}
+input{
+    height: 30px;
+    opacity: 0.6;
+    margin-top: -200px;
+}
+
+ .ball { 
+    animation-name: move-left-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-delay:1s; 
+    animation-fill-mode: both;
+}
+
+@keyframes move-left-right {
+    0% {transform: translateX(100px) rotate(0turn);}
+    20% {transform: translateX(-10px) rotate(-0.5turn);}
+    100% {transform:translateX(1150px) rotate(2turn);}           
+}
+.wrap{
+	margin-top: 250px;
+}
