@@ -10,6 +10,16 @@ html, body{
 	color:white;
 	height:100%;
 }
+.parallax{
+    height: 25vw;
+    background-image: url('abstrac.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+}
 ul{
 	margin: 0px;
 	padding: 0px;

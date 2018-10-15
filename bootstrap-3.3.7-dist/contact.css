@@ -13,7 +13,7 @@ html, body{
 .top-bar{
 	border-radius: 1px;
 	background-color: black;
-	padding: 2px;
+	padding: 0px;
 }
 .my-menu{
 	margin-top: 20px;
@@ -28,16 +28,26 @@ p{
 .my-menu .navbar-nav .active a, .my-menu .navbar-nav .active a:hover{
 	background-color: #8B008B;
 	color:white;
+	
+	
 }
 .my-menu .navbar-nav li a:hover{
 	background-color: #8B008B;
 	color: white;
 }
+.my-menu .pull-right{
+	float: none !important;
+}
+	
 p{  
     border:3px solid  black;
 
     border-radius:7px; 
 
+
+}
+p:hover{
+	box-shadow: -1px 2px 18px black;
 
 }
 strong{ height: 3px;
@@ -47,8 +57,13 @@ strong{ height: 3px;
 b{  margin-left: 20px;
     font-size: 40px;
 }
+.a{
+	margin-left:-30px;
+}
+
 p1 {
-    margin-left: 100px; 
+
+    margin-left: 152px; 
  
 }
 p3{
@@ -57,6 +72,15 @@ p3{
 h1{  margin-top: 10px;
    
     font-size: 40px;
+
+}
+#lines{
+	border:3px solid  black;
+
+    border-radius:7px; 
+}
+#lines:hover{
+	box-shadow: -1px 2px 18px grey;
 
 }
 #hoop{
@@ -70,7 +94,10 @@ h1{  margin-top: 10px;
 margin-top: 18px;
 background-opacity: 0.7;
 }
-
+.well:hover{
+	box-shadow: -1px 2px 18px black;
+	opacity: .93;
+}
 /*-----------footer-------*/
 
 footer {
